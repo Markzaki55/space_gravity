@@ -1,0 +1,1003 @@
+fileFormatVersion: 2
+guid: d515cad819c1594489c031f34fbb95a8
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 3
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_56
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 183
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2ed0cd5a82ab8744a4f845766458ba7
+      internalID: -1349879154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_57
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 184
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b92c8f230a857b1448abbaf11cae1895
+      internalID: -599004982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_58
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 185
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e273fd133e4cbc4459c1abf5fea6259b
+      internalID: -2067926213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_59
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 186
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de16f5e4558aca84eb8970ca47bdb2f5
+      internalID: -683322338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_60
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 187
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e746314f941b3fe4baca01659021a243
+      internalID: -1600416863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_61
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 187
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1dca39737ac6c4b90b550bce562e44
+      internalID: -1780243190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_62
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 183
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d3d8102dcbc53340a51b1f9c8e7557a
+      internalID: 2104610505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_63
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 182
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecbc0b08d8ec0fa47a3f97c86e6c5275
+      internalID: 1968500574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_64
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 126
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f2277d89223e56458e4f144128cb162
+      internalID: -566512392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_65
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 126
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52525b87e2745844ca9b1d6fa60641cf
+      internalID: 957426313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_66
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 127
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7aa56919db73f34fbd5c190a45d215e
+      internalID: 797699802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_67
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 128
+        width: 17
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09d44f82275d27c44860adb831b1e641
+      internalID: 1978569781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_68
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 129
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c331da22dc00a534588183c4126b3159
+      internalID: 1956312841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_69
+      rect:
+        serializedVersion: 2
+        x: 254
+        y: 128
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3922f0d1e527bac46be2e1bc6c6da664
+      internalID: -1935900415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_70
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 127
+        width: 17
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1e5ac3df3c45c44c89f0f9479f5f010
+      internalID: 1916090946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_71
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 72
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23ccb1df835626d448aa28e6aaed5fcb
+      internalID: 365375644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_72
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 74
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61de468fda5737e4098d3d686195328c
+      internalID: 1904109773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_73
+      rect:
+        serializedVersion: 2
+        x: 107
+        y: 74
+        width: 23
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f8401a308d99dd44ab48c4eb3f1ebf4
+      internalID: 1751392696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_74
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 74
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29185af44da2e04486d980cfce2464f
+      internalID: -1099052947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_77
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 72
+        width: 23
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bb8a71292fbd524bab66202c8379bd9
+      internalID: 1252252069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_84
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 14
+        width: 22
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4eb33c114abbcd41887ca2673d87352
+      internalID: -2098582462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_86
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 14
+        width: 29
+        height: 25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a14213cece01eb544a20d54abd7a82f7
+      internalID: -414907199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_87
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 14
+        width: 21
+        height: 21
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1804e1d3529cb644b04d6e9fd4072b3
+      internalID: 1199600570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_90
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 15
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b95838177a4d6034ebd67faad112ce1d
+      internalID: -516966413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_78
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 6
+        width: 35
+        height: 36
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6fd0d498634ac24e8a57c3287ae80f5
+      internalID: 1594160762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_79
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 14
+        width: 23
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d84a8dc0b611584ebb868e77b8f5cf4
+      internalID: 21533989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_80
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 70
+        width: 28
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cdfd09cec9b3de4ba9043480187b5df
+      internalID: -1266119144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_81
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 74
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4369a9a4971a344fba12aba78e0843b
+      internalID: 1381626153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_82
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 74
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca8578c511f06ef42beef88b7085ee7d
+      internalID: 959380536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_83
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 72
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42e5cdc5f3a89be4baa1a35d6ca89f07
+      internalID: -1977470414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_75
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 72
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0718b807cb8fa9848b3fa9e383e85964
+      internalID: 1305625836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_76
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 14
+        width: 31
+        height: 22
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4757aef7a40a77547a19af78fd286556
+      internalID: 1109933538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_85
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 7
+        width: 38
+        height: 19
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f1de561eee935040ad5187c7207e660
+      internalID: 641732100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_88
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 7
+        width: 42
+        height: 13
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13c224d2f32d1b741b2bdd605eea09d0
+      internalID: 1182631434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_89
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 6
+        width: 42
+        height: 15
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aef03e9a9317e84d9ce037f54390a26
+      internalID: -10248352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sheet-metal-monster-lila_91
+      rect:
+        serializedVersion: 2
+        x: 480
+        y: 6
+        width: 42
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39a00837b34db5b4e8e5ac0af0f1f427
+      internalID: -702505051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      sheet-metal-monster-lila_0: 819341431
+      sheet-metal-monster-lila_1: -389404397
+      sheet-metal-monster-lila_10: 9649158
+      sheet-metal-monster-lila_100: -761521357
+      sheet-metal-monster-lila_101: 1876011597
+      sheet-metal-monster-lila_102: -311225063
+      sheet-metal-monster-lila_103: 95095394
+      sheet-metal-monster-lila_104: 42509165
+      sheet-metal-monster-lila_105: 1562673554
+      sheet-metal-monster-lila_106: 1622883074
+      sheet-metal-monster-lila_107: -245561306
+      sheet-metal-monster-lila_108: -1521042132
+      sheet-metal-monster-lila_109: -802824148
+      sheet-metal-monster-lila_11: -332228489
+      sheet-metal-monster-lila_110: -334719013
+      sheet-metal-monster-lila_111: 858080308
+      sheet-metal-monster-lila_12: 59720
+      sheet-metal-monster-lila_13: -1177371789
+      sheet-metal-monster-lila_14: -264214357
+      sheet-metal-monster-lila_15: 2081827760
+      sheet-metal-monster-lila_16: 10524911
+      sheet-metal-monster-lila_17: 468246505
+      sheet-metal-monster-lila_18: 129124741
+      sheet-metal-monster-lila_19: -2057412485
+      sheet-metal-monster-lila_2: -1151395299
+      sheet-metal-monster-lila_20: -1217125127
+      sheet-metal-monster-lila_21: -1877420733
+      sheet-metal-monster-lila_22: 35150430
+      sheet-metal-monster-lila_23: 1531623304
+      sheet-metal-monster-lila_24: 1901392265
+      sheet-metal-monster-lila_25: 1659455294
+      sheet-metal-monster-lila_26: 760812245
+      sheet-metal-monster-lila_27: -479183356
+      sheet-metal-monster-lila_28: 126346353
+      sheet-metal-monster-lila_29: 203476719
+      sheet-metal-monster-lila_3: -2003881291
+      sheet-metal-monster-lila_30: -1580550920
+      sheet-metal-monster-lila_31: 222571363
+      sheet-metal-monster-lila_32: 2064315362
+      sheet-metal-monster-lila_33: -1253009259
+      sheet-metal-monster-lila_34: -267175750
+      sheet-metal-monster-lila_35: 1747825874
+      sheet-metal-monster-lila_36: -77296067
+      sheet-metal-monster-lila_37: -1130823324
+      sheet-metal-monster-lila_38: 1592201915
+      sheet-metal-monster-lila_39: -1553876666
+      sheet-metal-monster-lila_4: -1984864682
+      sheet-metal-monster-lila_40: 1829851783
+      sheet-metal-monster-lila_41: 330690576
+      sheet-metal-monster-lila_42: -398929984
+      sheet-metal-monster-lila_43: -391847455
+      sheet-metal-monster-lila_44: -1098959866
+      sheet-metal-monster-lila_45: -1333682488
+      sheet-metal-monster-lila_46: -1245059108
+      sheet-metal-monster-lila_47: 463196405
+      sheet-metal-monster-lila_48: 145157509
+      sheet-metal-monster-lila_49: 619744952
+      sheet-metal-monster-lila_5: -1303041871
+      sheet-metal-monster-lila_50: -1232049032
+      sheet-metal-monster-lila_51: 1251569405
+      sheet-metal-monster-lila_52: 724106108
+      sheet-metal-monster-lila_53: -288018789
+      sheet-metal-monster-lila_54: -1528448100
+      sheet-metal-monster-lila_55: -1701355994
+      sheet-metal-monster-lila_56: -1349879154
+      sheet-metal-monster-lila_57: -599004982
+      sheet-metal-monster-lila_58: -2067926213
+      sheet-metal-monster-lila_59: -683322338
+      sheet-metal-monster-lila_6: -318007752
+      sheet-metal-monster-lila_60: -1600416863
+      sheet-metal-monster-lila_61: -1780243190
+      sheet-metal-monster-lila_62: 2104610505
+      sheet-metal-monster-lila_63: 1968500574
+      sheet-metal-monster-lila_64: -566512392
+      sheet-metal-monster-lila_65: 957426313
+      sheet-metal-monster-lila_66: 797699802
+      sheet-metal-monster-lila_67: 1978569781
+      sheet-metal-monster-lila_68: 1956312841
+      sheet-metal-monster-lila_69: -1935900415
+      sheet-metal-monster-lila_7: 1052182844
+      sheet-metal-monster-lila_70: 1916090946
+      sheet-metal-monster-lila_71: 365375644
+      sheet-metal-monster-lila_72: 1904109773
+      sheet-metal-monster-lila_73: 1751392696
+      sheet-metal-monster-lila_74: -1099052947
+      sheet-metal-monster-lila_75: 1305625836
+      sheet-metal-monster-lila_76: 1109933538
+      sheet-metal-monster-lila_77: 1252252069
+      sheet-metal-monster-lila_78: 1594160762
+      sheet-metal-monster-lila_79: 21533989
+      sheet-metal-monster-lila_8: -1426828827
+      sheet-metal-monster-lila_80: -1266119144
+      sheet-metal-monster-lila_81: 1381626153
+      sheet-metal-monster-lila_82: 959380536
+      sheet-metal-monster-lila_83: -1977470414
+      sheet-metal-monster-lila_84: -2098582462
+      sheet-metal-monster-lila_85: 641732100
+      sheet-metal-monster-lila_86: -414907199
+      sheet-metal-monster-lila_87: 1199600570
+      sheet-metal-monster-lila_88: 1182631434
+      sheet-metal-monster-lila_89: -10248352
+      sheet-metal-monster-lila_9: -183984227
+      sheet-metal-monster-lila_90: -516966413
+      sheet-metal-monster-lila_91: -702505051
+      sheet-metal-monster-lila_92: -462460100
+      sheet-metal-monster-lila_93: -110358084
+      sheet-metal-monster-lila_94: -507773548
+      sheet-metal-monster-lila_95: 647389091
+      sheet-metal-monster-lila_96: -2033028518
+      sheet-metal-monster-lila_97: -218336646
+      sheet-metal-monster-lila_98: 51696404
+      sheet-metal-monster-lila_99: 1467931787
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

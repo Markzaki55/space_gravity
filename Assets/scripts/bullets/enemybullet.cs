@@ -44,8 +44,11 @@ public class enemybullet : MonoBehaviour
     {
         if (collision.transform.CompareTag("Player"))
         {
-            playerHealth.Damage(1);
+            Idamageable idamage = collision.GetComponent<Idamageable>();
+        if(idamage != null){
             Destroy(gameObject);
+            idamage.Takedamage(1);
+            
             
             if (transform.position.x < charactermovement.instance.transform.position.x)
             {
@@ -79,4 +82,4 @@ public class enemybullet : MonoBehaviour
             Destroy(gameObject);
         }
     }
-}
+}}

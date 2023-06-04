@@ -117,12 +117,18 @@ public class JumpEnemy : MonoBehaviour
         Gizmos.DrawWireCube(transform.position, lineofsite);
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.CompareTag("Player"))
+
+          if (collision.gameObject.CompareTag("Player"))
         {
-            playerhealth.Damage(1);
-            if (transform.position.x < charactermovement.instance.transform.position.x)
+            Idamageable idamage = collision.gameObject.GetComponent<Idamageable>();
+            if (idamage != null)
+            {
+                idamage.Takedamage(1);
+            }
+        }
+              if (transform.position.x < charactermovement.instance.transform.position.x)
             {
 
                 charactermovement.instance.knockbackx(10f);
@@ -144,6 +150,34 @@ public class JumpEnemy : MonoBehaviour
 
                 charactermovement.instance.knockbacky(-2.5f);
             }
+            
         }
+
+        // if(collision.transform.CompareTag("Player"))
+        // {
+        //     playerhealth.Takedamage(1);
+        //     if (transform.position.x < charactermovement.instance.transform.position.x)
+        //     {
+
+        //         charactermovement.instance.knockbackx(10f);
+        //     }
+        //     else
+        //     {
+
+        //         charactermovement.instance.knockbackx(-10f);
+        //     }
+
+
+        //     if (transform.position.y < charactermovement.instance.transform.position.y)
+        //     {
+
+        //         charactermovement.instance.knockbacky(2.5f);
+        //     }
+        //     else if (transform.position.y > charactermovement.instance.transform.position.y)
+        //     {
+
+        //         charactermovement.instance.knockbacky(-2.5f);
+        //     }
+        // }
     }
-}
+

@@ -76,12 +76,17 @@ public class randenemyscript : MonoBehaviour
         Gizmos.DrawWireCube(roofCheck.transform.position, roofCheckSize);
         Gizmos.DrawWireCube(rightCheck.transform.position, rightCheckSize);
     }
-    private void OnCollisionEnter2D(Collision2D collision)
+      public void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.transform.CompareTag("Player"))
-        {
-            playerhealth.Damage(1);
 
+          if (collision.gameObject.CompareTag("Player"))
+        {
+            Idamageable idamage = collision.gameObject.GetComponent<Idamageable>();
+            if (idamage != null)
+            {
+                idamage.Takedamage(1);
+            }
+        }
 
             if (transform.position.x < charactermovement.instance.transform.position.x)
             {
@@ -113,4 +118,4 @@ public class randenemyscript : MonoBehaviour
 
         }
     }
-}
+

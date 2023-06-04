@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class randenemy_health : MonoBehaviour
+public class randenemy_health : MonoBehaviour,Idamageable
 {
     public GameObject explosion;
     SimpleFlash simpleflash;
@@ -29,13 +29,10 @@ public class randenemy_health : MonoBehaviour
 
     }
 
-    public void enemytakindamage(int amount)
+    public void Takedamage(int amount)
     {
         Rcurrethealth -= amount;
         simpleflash.Flash();
-
-
-
 
         if (transform.position.x < charactermovement.instance.transform.position.x)
         {

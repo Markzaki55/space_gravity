@@ -20,11 +20,17 @@ public class Gaurdian_dealingdamage : MonoBehaviour
         
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+      public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.transform.CompareTag("Player"))
+
+          if (collision.gameObject.CompareTag("Player"))
         {
-            playerhealth1.Damage(2);
+            Idamageable idamage = collision.gameObject.GetComponent<Idamageable>();
+            if (idamage != null)
+            {
+                idamage.Takedamage(1);
+            }
+        }
             if (transform.position.x < charactermovement.instance.transform.position.x)
             {
 
@@ -50,4 +56,4 @@ public class Gaurdian_dealingdamage : MonoBehaviour
         }
     }
 
-}
+

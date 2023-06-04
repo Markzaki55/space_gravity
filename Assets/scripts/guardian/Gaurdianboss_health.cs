@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.UIElements;
 
-public class Gaurdianboss_health : MonoBehaviour
+public class Gaurdianboss_health : MonoBehaviour,Idamageable
 {
 
     public UnityEngine.UI.Image healthbar;
@@ -42,7 +42,7 @@ public class Gaurdianboss_health : MonoBehaviour
 
     }
 
-    public void BossDamage(int amount)
+    public void Takedamage(int amount)
     {
         bossCurrentHealth -= amount;
 

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class enemyhealth : MonoBehaviour
+public class enemyhealth : MonoBehaviour,Idamageable
 {
     public GameObject explosion;
     SimpleFlash simpleflash;
@@ -15,7 +15,7 @@ public class enemyhealth : MonoBehaviour
         Ecurrethealth = Emaxhealth;
     }
 
-    public void enemytakindamage(int amount)
+    public void Takedamage(int amount)
     {
         Ecurrethealth -= amount;
         simpleflash.Flash();

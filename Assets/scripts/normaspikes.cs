@@ -30,7 +30,12 @@ public class normaspikes : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Player") && damageTimer <= 0)
         {
-            playerHealth.Damage(1);
+          Idamageable idamage = collision.GetComponent<Idamageable>();
+        if(idamage != null&& damageTimer <= 0){
+           // Destroy(gameObject);
+            idamage.Takedamage(1);
+            
+        }
             damageTimer = 0.5f;
             rb.velocity = new Vector2(-knockback, knockback); 
         }

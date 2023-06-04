@@ -32,40 +32,16 @@ public class Bullet_BehaviourScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the bullet collided with the boss
-        if (collision.CompareTag("Boss"))
-        {
-            Destroy(gameObject);
-            collision.gameObject.GetComponent<Gaurdianboss_health>().BossDamage(1);
+        // Destroy(gameObject);
+if(!collision.gameObject.CompareTag("Player")){
+        Idamageable idamage = collision.GetComponent<Idamageable>();
+        if(idamage != null){
+           // Destroy(gameObject);
+            idamage.Takedamage(1);
+            
         }
-
-        // Check if the bullet collided with an enemy
-        if (collision.CompareTag("enemy"))
-        {
-            Destroy(gameObject);
-
-            // Call the enemy's "enemytakindamage()" function with 1 as the damage value
-            collision.gameObject.GetComponent<enemyhealth>().enemytakindamage(1);
-        }
-
-        // Check if the bullet collided with a jenemy
-        if (collision.CompareTag("jenemy"))
-        {
-            Destroy(gameObject);
-
-            // Call the jenemy's "enemytakindamage()" function with 1 as the damage value
-            collision.gameObject.GetComponent<JenemyHealth>().enemytakindamage(1);
-        }
-
-        // Check if the bullet collided with a renemy
-        if (collision.CompareTag("Renemy"))
-        {
-            Destroy(gameObject);
-
-            // Call the renemy's "enemytakindamage()" function with 1 as the damage value
-            collision.gameObject.GetComponent<randenemy_health>().enemytakindamage(1);
-        }
-
+}
+    
         // Check if the bullet collided with the ground
         if (collision.transform.CompareTag("Ground"))
         {

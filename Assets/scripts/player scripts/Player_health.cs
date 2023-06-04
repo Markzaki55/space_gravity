@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Player_health : MonoBehaviour
+public class Player_health : MonoBehaviour,Idamageable
 {
     
      public GameObject explosion;
@@ -33,12 +33,10 @@ public class Player_health : MonoBehaviour
         
     }
 
-    public void Damage(int amount)
+    public void Takedamage(int amount)
     {
         currethealth -= amount;
        
-
-
         Debug.Log($"your health : {currethealth}");
         if (currethealth <= 0)
         {
@@ -51,12 +49,6 @@ public class Player_health : MonoBehaviour
 
 
             // play a tryagain scene
-
-
-
-
-
-
 
             Debug.Log("you are dead");
             

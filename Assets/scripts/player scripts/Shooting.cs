@@ -28,33 +28,6 @@ public class Shooting : MonoBehaviour
     }
 
 
-    //public void shoot()
-    //{
-    //    mousepos = thecam.ScreenToWorldPoint(Input.mousePosition);
-    //    Vector3 rotation = mousepos - transform.position;
-    //    float rotZ = Mathf.Atan2(rotation.y, rotation.x) * Mathf.Rad2Deg;
-    //    transform.rotation = Quaternion.Euler(0, 0, rotZ);
-
-    //    if (!canfire)
-    //    {
-    //        timer += Time.deltaTime;
-    //        if (timer > timebetween)
-    //        {
-    //            canfire = true;
-    //            timer = 0;
-    //        }
-    //    }
-
-    //    if (Input.GetMouseButton(0) && canfire)
-    //    {
-    //        canfire = false;
-    //      gunsound.Play();
-    //        Instantiate(bullet, bullettTras.position, Quaternion.identity);
-    //    }
-    //}
-
-
-
     public void shoot()
     {
         mousepos = thecam.ScreenToWorldPoint(Input.mousePosition);
